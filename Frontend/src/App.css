@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  font: 14px sans-serif;
+  color: #333;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+input, button {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+button::placeholder {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container Header {
+  color: #e10914;
+  text-align: center;
+  margin-top: 25px
+}
+
+.container header {
+  margin: 0 auto;
+}
+
+.container header img {
+  height: 280px;
+  width: 500px;
+  margin-top: 30px;
+}
+
+.container ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  text-align: left;
+  font-size: 24px;
+  color: #e10914;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.container ul li button {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  background: #b92c34;
+  color: #fff;
+  border: none;
+}
+
+.container ul li button:hover {
+  background: #e24048;
+}
+
+.container ul li div span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container button {
+  height: 50px;
+  width: 350px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  background: #ff000d;
+  color: #fff;
+  border-radius:8px;
+}
+.container button:hover {
+  background: #e24048;
+  cursor: pointer;
+}
+
+.container form input {
+  height: 40px;
+  width: 250px;
+  margin-right: 25px;
+  border-radius: 4px;
+  border-color:  #ff000d;
+}
